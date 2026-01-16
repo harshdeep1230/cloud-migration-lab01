@@ -2,7 +2,7 @@
 
 ## 1. Case Study Overview
 
-- **Company name:** :contentReference[oaicite:0]{index=0}
+- **Company name:** :ASOS
 - **Industry:** E-commerce / Online Retail
 - **Existing environment:** Primarily on-premises infrastructure with legacy systems supporting a rapidly growing global e-commerce platform
 - **Target cloud platform:** Microsoft Azure
@@ -14,11 +14,11 @@ ASOS is a online fashion retailer with a global reach which is growing at a very
 
 The primary motivations for ASOS to migrate to the cloud include:
 
-- **Scalability:** The need to handle significant traffic spikes during sales and seasonal events without over-provisioning hardware.
-- **Reliability and availability:** Reducing downtime and improving system resilience to protect revenue and customer trust.
-- **Faster deployment:** Enabling quicker release cycles and more agile development practices.
-- **Cost optimization:** Shifting from capital expenditure on physical infrastructure to a pay-as-you-go cloud model.
-- **Global performance:** Leveraging Azure’s global regions and content delivery capabilities to improve user experience worldwide.
+- **Scalability:** The need to handle significant traffic spikes during sales and seasonal events without over-provisioning hardware
+- **Reliability and availability:** Reducing downtime and improving system resilience to protect revenue and customer trust
+- **Faster deployment:** Enabling quicker release cycles and more agile development practices
+- **Cost optimization:** Shifting from capital expenditure on physical infrastructure to a pay-as-you-go cloud model
+- **Global performance:** Leveraging Azure’s global regions and content delivery capabilities to improve user experience worldwide
 
 ---
 
@@ -52,7 +52,7 @@ To fully understand ASOS’s existing environment, the following questions must 
 
 A **rehost and replatform** migration approach is the most suitable for ASOS.
 
-Rehosting (lift-and-shift) allows ASOS to migrate existing workloads quickly with minimal changes, reducing risk and downtime. 
+Rehosting (lift-and-shift) allows ASOS to migrate existing workloads quickly with minimal changes, reducing risk and downtime
 
 ---
 
