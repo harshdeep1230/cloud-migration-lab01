@@ -24,10 +24,9 @@ The service in this architecture plays the role of a coordinator between the use
 
 ### Product Service (Rust)
 
+The Product Service takes control of the product catalogue, which involves the storage and retrieval of names, descriptions and prices. It is coded in Python and Flask, a light framework because of its ease in creating RESTful APIs and carrying out effective CRUD operations.
 
- product-service is a central microservice that maintains the product catalog including storage and retrieval and update of product data like names, description and price. It is coded in Python and the Flask web framework, which was probably selected because Flask is rather lightweight and simple to use when writing RESTful APIs. It is a stack that can be quickly developed, and is highly readable, which makes it ideal in specialized services that specialize in CRUD (Create, Read, Update, Delete) operations on the larger ecosystem.
-
-Architecture and Communication In the microservices architecture, the product-service is a downstream provider of resources. It works autonomously and has its own database (usually an instance of MongoDB as recommended by the laboratory environment) to guarantee loose coupling and data separation. It communicates with other services, i.e. an API Gateway or a frontend service, mainly using synchronous RESTful APIs via HTTP. Upon a request to this service being sent to it or made by one of the users or another service (such as an Order service) to check the availability of items or retrieve some information, this service processes the request and sends the relevant JSON data back.
+Under this design, the service is a resource provider by its own with its own MongoDB database to have data isolation. It interacts with the frontend and the Order service through synchronous RESTful APIs, and provides the JSON data whenever the details of items or an availability check are requested.
 
 ### Store Front (Vue.js)
 
